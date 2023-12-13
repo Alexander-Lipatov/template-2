@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #02061D;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {}
+
+.contact {
+    display: flex;
+    gap: 60px;
+}
+
+.addr,
+.phone {
+    display: flex;
+    align-items: center;
+}
+
+.addr::before {
+    content: url(../images/location.svg);
+    padding-right: 6px;
+
+}
+
+.phone::before {
+    content: url(../images/call.svg);
+    padding-right: 6px;
+}
+
+.order-call {}
+
+.navigations {
+    background-color: #02061D;
+    display: flex;
+    justify-content: center;
+    padding: 19px 0;
+
+
+}
+
+.navigations>ul {
+    height: 22px;
+    width: 1000px;
+    display: flex;
+    gap: 35px;
+    justify-content: space-between;
+}
+
+.navigations>ul>li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-image {
+    width: 100%;
+    height: 1096px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.banner-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    height: 512px;
+    width: 1075px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: end;
+}
+
+.banner-content>h1 {
+    font-size: 80px;
+}
+
+.banner-logo img {
+    top: 0;
+
+
+    position: absolute;
+}
+
+.banner-logo {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.lvl-1 {
+    top: 0;
+}
+
+img.lvl-2 {
+    top: 75px;
+}
+
+img.lvl-3 {
+    top: 0;
+    right: 464px;
+}
+
+.events {
+    margin-top: 110px;
+}
+
+.events>h2 {
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.events-items {}
+
+.event-item {
+    width: 492px;
+    height: 492px;
+}
+
+.event-cover {
+    width: 492px;
+    height: 492px;
+    position: absolute;
+    
+}
+
+.event-address {}
+
+.event-info {}
+
+.event-type {}
+
+.event-title {}
+
+.event-date {}
