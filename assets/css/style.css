@@ -152,11 +152,15 @@ img.lvl-3 {
     line-height: normal;
 }
 
-.events-items {}
+.events-items {
+    display: flex;
+    gap: 45px;
+
+}
 
 .event-item {
     width: 492px;
-    height: 492px;
+    height: 492px; 
 }
 
 .event-cover {
